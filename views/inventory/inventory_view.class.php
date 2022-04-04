@@ -9,7 +9,7 @@ class InventoryView
 <h1>Hello this is the inventory</h1>
 <?php
         foreach ($inventory as $item) {
-            echo '<p>' . $item["item_id"] . '</p>';
+            echo '<p>' . $item["title"] . '</p>';
         }
         ?>
 <?php

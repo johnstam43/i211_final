@@ -15,6 +15,7 @@ return array(
     'HomeView' => $baseDir . '/views/home/home_view.class.php',
     'IndexView' => $baseDir . '/views/index_view.class.php',
     'InventoryController' => $baseDir . '/controllers/inventory_controller.class.php',
+    'InventoryModel' => $baseDir . '/models/inventory_model.class.php',
     'InventoryView' => $baseDir . '/views/inventory/inventory_view.class.php',
     'SiteController' => $baseDir . '/controllers/site_controller.class.php',
 );

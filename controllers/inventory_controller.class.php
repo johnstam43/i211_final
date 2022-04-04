@@ -9,6 +9,7 @@ class InventoryController
     }
     public function index()
     {
+        $inventory = $this->inventory_model->getAll();
         $view = new InventoryView();
         $view->display();
     }

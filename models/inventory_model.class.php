@@ -29,4 +29,8 @@ class InventoryModel
         }
         return self::$_instance;
     }
+
+    public function getAll()
+    {
+    }
 }

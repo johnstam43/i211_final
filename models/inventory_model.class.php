@@ -32,5 +32,12 @@ class InventoryModel
 
     public function getAll()
     {
+        $sql = "select * from inventory";
+
+        $query = $this->dbConnection->query($sql);
+
+        if (!$query) return false;
+
+        return $query->fetch_assoc();
     }
 }

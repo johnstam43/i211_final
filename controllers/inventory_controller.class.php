@@ -11,6 +11,6 @@ class InventoryController
     {
         $inventory = $this->inventory_model->getAll();
         $view = new InventoryView();
-        $view->display();
+        $view->display($inventory);
     }
 }

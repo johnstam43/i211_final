@@ -19,6 +19,7 @@ class IndexView
     <nav>
         <a href="<?= BASE_URL ?>/site">Home</a>
         <a href="<?= BASE_URL ?>/inventory">Inventory</a>
+        <a href="<?= BASE_URL ?>/rent_history"> Rent History </a>
     </nav>
 
     <?php

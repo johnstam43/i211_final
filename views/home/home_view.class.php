@@ -6,7 +6,7 @@ class HomeView
     {
         IndexView::displayHeader("Home");
 ?>
-<h1>Hello</h1>
+<h1>Welcome to Indiana Disc Rentals</h1>
 <?php
         IndexView::displayFooter();
     }
